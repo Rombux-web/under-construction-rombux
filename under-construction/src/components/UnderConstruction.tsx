@@ -39,7 +39,7 @@ export default function UnderConstruction() {
                             title="YouTube video player"
                             allow="accelerometer; encrypted-media;"
                             allowFullScreen
-                            className="mx-auto mb-6 rounded-3xl max-sm:w-[370px] "
+                            className="mx-auto mb-6 rounded-3xl max-sm:w-[350px] "
                         ></iframe>
                     </div>
 
