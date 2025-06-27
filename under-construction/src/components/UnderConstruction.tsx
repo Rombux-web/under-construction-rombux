@@ -4,12 +4,13 @@ export default function UnderConstruction() {
     return (
 
         <div>
-            <div className="pt-14 px-[143px]">
+            <div className="pt-14 px-[143px] max-sm:px-[20px]">
                 <Image
                     src="/logo.png"
                     alt="Logo Rombux"
                     width={240}
                     height={39}
+                    className="max-sm:w-[200px] "
                 />
             </div>
             <div className="relative w-full h-[915px] flex flex-col items-center justify-center text-white overflow-hidden">
