@@ -30,7 +30,7 @@ export default function UnderConstruction() {
                         className="object-contain absolute top-0 left-0 animate-spin [animation-direction:reverse] [animation-duration:150s]"
                     />
                 </div>
-                <div className="mb-40 max-sm:w-[390px] flex flex-col ">
+                <div className="mb-40 max-sm:w-[390px] flex flex-col max-sm:mb-60">
                     <div>
                         <iframe
                             width="450"
