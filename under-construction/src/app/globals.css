@@ -22,6 +22,7 @@
 body {
   background: url('/gradientehome.png') no-repeat center center;
   background-size: cover;
+  min-height: 100vh;
   color: var(--foreground);
   font-family: Albert sans;
   overflow: hidden;
