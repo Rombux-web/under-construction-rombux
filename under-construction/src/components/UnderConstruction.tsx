@@ -14,7 +14,7 @@ export default function UnderConstruction() {
                 />
             </div>
             <div className="relative w-full h-[915px] flex flex-col items-center justify-center text-white overflow-hidden">
-                <div className="absolute -bottom-10 -left-40 max-lg:-left-20  max-lg:bottom-9 max-xl:-left-20 max-xl:bottom-9 max-md:-left-10 max-md:bottom-15 max-sm:-left-5  max-sm:bottom-20 z-0 w-[30vw] max-w-[541px] h-[30vw] max-h-[541px]">
+                <div className="absolute -bottom-10 -left-40 max-lg:-left-20  max-lg:bottom-9 max-xl:-left-20 max-xl:bottom-9 max-md:-left-10 max-md:bottom-15 max-sm:-left-5  max-sm:bottom-60 z-0 w-[30vw] max-w-[541px] h-[30vw] max-h-[541px]">
                     <Image
                         src="/group182.png"
                         fill
