@@ -29,21 +29,23 @@ export default function UnderConstruction() {
                         className="object-contain absolute top-0 left-0 animate-spin [animation-direction:reverse] [animation-duration:150s]"
                     />
                 </div>
-                <div>
-                    <iframe
-                        width="520"
-                        height="315"
-                        src="https://www.youtube.com/embed/IBasr17SVMA"
-                        title="YouTube video player"
-                        allow="accelerometer; encrypted-media;"
-                        allowFullScreen
-                        className="mx-auto mb-6 rounded-3xl w"
-                    ></iframe>
-                </div>
-
-                <div className="z-10 text-center px-4 leading-[32px]">
-                    <h1 className="text-[30px] font-medium">Estamos renovando nuestro sitio.</h1>
-                    <h2 className="text-[24px] mt-1">¡Pronto te contaremos más!</h2>
+                <div className="mb-40">
+                    <div>
+                        <iframe
+                            width="450"
+                            height="315"
+                            src="https://www.youtube.com/embed/IBasr17SVMA"
+                            title="YouTube video player"
+                            allow="accelerometer; encrypted-media;"
+                            allowFullScreen
+                            className="mx-auto mb-6 rounded-3xl w"
+                        ></iframe>
+                    </div>
+                    
+                    <div className="z-10 text-center px-4 leading-[32px] mt-15">
+                        <h1 className="text-[24px] font-medium">Estamos renovando nuestro sitio.</h1>
+                        <h2 className="text-[22px] mt-1">¡Pronto te contaremos más!</h2>
+                    </div>
                 </div>
 
             </div>
