@@ -42,7 +42,7 @@ export default function UnderConstruction() {
                         className="object-contain absolute top-0 left-0 animate-spin [animation-direction:reverse] [animation-duration:150s]"
                     />
                 </div>
-                <div className="mb-40 max-sm:w-[350px] flex flex-col max-sm:mb-50 max-lg:mt-50">
+                <div className="mb-40 max-sm:w-[350px] flex flex-col max-sm:mb-100 max-lg:mt-50">
                     <div>
                         <iframe
                             width="450"
@@ -56,8 +56,8 @@ export default function UnderConstruction() {
                     </div>
 
                     <div className="z-10 text-center px-4 leading-[32px] mt-15 max-sm:mt-5 ">
-                        <h1 className="text-[24px] font-medium">Estamos renovando nuestro sitio.</h1>
-                        <h2 className="text-[22px] mt-1">¡Pronto te contaremos más!</h2>
+                        <h1 className="text-[24px] font-medium max-sm:text-[20px]">Estamos renovando nuestro sitio.</h1>
+                        <h2 className="text-[22px] mt-1 max-sm:text-[15px]">¡Pronto te contaremos más!</h2>
                     </div>
                 </div>
 
