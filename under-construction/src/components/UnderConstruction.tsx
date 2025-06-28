@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function UnderConstruction() {
     return (
 
-        <div className="max-lg:h-[1366px]">
+        <div className="max-lg:h-[1366px] max-sm:h-[956px]">
             <div className="pt-14 px-[143px] max-sm:px-[30px]">
                 <Image
                     src="/logo.png"
