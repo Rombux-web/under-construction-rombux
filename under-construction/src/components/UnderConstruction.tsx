@@ -55,9 +55,11 @@ export default function UnderConstruction() {
                         ></iframe>
                     </div>
 
-                    <div className="z-10 text-center px-4 leading-[32px] mt-15 max-sm:mt-5 ">
-                        <h1 className="text-[24px] font-medium max-sm:text-[20px]">Estamos renovando nuestro sitio.</h1>
-                        <h2 className="text-[22px] mt-1 max-sm:text-[15px]">¡Pronto te contaremos más!</h2>
+                    <div className="z-10 text-center px-4 leading-[32px] mt-15 max-sm:mt-5 flex flex-col ">
+                        <div className="max-sm:w-[207px] max-sm:leading-[20px] max-sm:mx-auto">
+                            <h1 className="text-[24px] font-medium max-sm:text-[20px]">Estamos renovando nuestro sitio.</h1>
+                            <h2 className="text-[22px] mt-1 max-sm:text-[15px]  max-sm:leading-[20px]">¡Pronto te contaremos más!</h2>
+                        </div>
                     </div>
                 </div>
 
