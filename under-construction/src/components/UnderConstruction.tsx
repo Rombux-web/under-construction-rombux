@@ -3,18 +3,18 @@ import Image from "next/image";
 export default function UnderConstruction() {
     return (
 
-        <div>
-            <div className="pt-14 px-[143px] max-sm:px-[20px]">
+        <div className="max-lg:h-[1366px]">
+            <div className="pt-14 px-[143px] max-sm:p-[80px]">
                 <Image
                     src="/logo.png"
                     alt="Logo Rombux"
-                    width={240}
-                    height={39}
-                    className="max-sm:w-[200px] "
+                    width={185}
+                    height={30}
+                    className="max-sm:w-[141px] "
                 />
             </div>
-            <div className="relative w-full h-[915px] flex flex-col items-center justify-center text-white overflow-hidden">
-                <div className="absolute -bottom-10 -left-40 max-lg:-left-20  max-lg:bottom-9 max-xl:-left-20 max-xl:bottom-9 max-md:-left-10 max-md:bottom-15 max-sm:-left-5  max-sm:bottom-60 z-0 w-[30vw] max-w-[541px] h-[30vw] max-h-[541px]">
+            <div className="relative w-full h-[915px] flex flex-col items-center justify-center text-white">
+                <div className="absolute -bottom-10 -left-40 max-lg:-left-40 max-lg:-bottom-59 max-xl:-left-20 max-xl:bottom-9 max-md:-left-10 max-md:-bottom-35 max-sm:hidden z-0 w-[30vw] max-w-[541px] h-[30vw] max-h-[541px] lg:w-[35vw] lg:h-[35vw] max-lg:w-[45vw] max-lg:h-[45vw] ">
                     <Image
                         src="/Trama esfera negra.png"
                         fill
@@ -28,7 +28,7 @@ export default function UnderConstruction() {
                         className="object-contain absolute top-0 left-0 animate-spin [animation-duration:150s]"
                     />
                 </div>
-                <div className="absolute top-[10px] -right-20 max-xl:-right-10 max-lg:-right-5 max-lg:top-[40px] max-sm:hidden z-0 w-[15vw] max-w-[299px] h-[15vw] max-h-[299px]">
+                <div className="absolute top-[10px] -right-20 max-xl:-right-10 max-lg:-right-20 max-lg:top-[-10px] max-sm:hidden z-0 w-[15vw] max-w-[299px] h-[15vw] max-h-[299px] lg:w-[20vw] lg:h-[20vw] max-lg:w-[30vw] max-lg:h-[30vw]">
                     <Image
                         src="/Trama esfera negra.png"
                         fill
@@ -42,7 +42,7 @@ export default function UnderConstruction() {
                         className="object-contain absolute top-0 left-0 animate-spin [animation-direction:reverse] [animation-duration:150s]"
                     />
                 </div>
-                <div className="mb-40 max-sm:w-[390px] flex flex-col max-sm:mb-60">
+                <div className="mb-40 max-sm:w-[390px] flex flex-col max-sm:mb-60 max-lg:mt-50">
                     <div>
                         <iframe
                             width="450"
