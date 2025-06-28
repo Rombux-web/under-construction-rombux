@@ -4,7 +4,7 @@ export default function UnderConstruction() {
     return (
 
         <div className="max-lg:h-[1366px]">
-            <div className="pt-14 px-[143px] max-sm:p-[80px]">
+            <div className="pt-14 px-[143px] max-sm:px-[30px]">
                 <Image
                     src="/logo.png"
                     alt="Logo Rombux"
@@ -42,7 +42,7 @@ export default function UnderConstruction() {
                         className="object-contain absolute top-0 left-0 animate-spin [animation-direction:reverse] [animation-duration:150s]"
                     />
                 </div>
-                <div className="mb-40 max-sm:w-[390px] flex flex-col max-sm:mb-60 max-lg:mt-50">
+                <div className="mb-40 max-sm:w-[350px] flex flex-col max-sm:mb-50 max-lg:mt-50">
                     <div>
                         <iframe
                             width="450"
