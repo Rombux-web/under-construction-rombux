@@ -47,7 +47,7 @@ export default function UnderConstruction() {
                         <iframe
                             width="450"
                             height="290"
-                            src="https://www.youtube.com/embed/IBasr17SVMA"
+                            src="https://www.youtube.com/embed/IBasr17SVMA?rel=0"
                             title="YouTube video player"
                             allow="accelerometer; encrypted-media;"
                             allowFullScreen
